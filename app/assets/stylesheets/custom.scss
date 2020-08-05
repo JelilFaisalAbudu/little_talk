@@ -1,0 +1,122 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+/* mixins, variables, etc.*/
+
+$light-gray-light: #eaeaea;
+
+
+/* universal rules */
+
+html {
+  font-size: 16px;
+}
+body {
+  padding-top: 3.75rem;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 0.63em;
+  }
+}
+
+
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -0.06em;
+  margin-bottom: 1.88em;
+  text-align: center;
+  color: #777;
+}
+
+h2 {
+  font-size: 1.2rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.88em;
+  text-align: center;
+  color: $gray-light;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.7em;
+}
+
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 0.63em;
+  font-size: 1.7rem;
+  color: rgb(172, 162, 162);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding-top: 0.56em;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+
+/* footer */
+
+footer {
+  margin-top: 2.81em;
+  padding-top: 0.31em;
+  border-top: 0.06em solid $light-gray-light;
+
+  a {
+    color: $gray;
+
+    &:hover {
+      color: $gray-darker;
+    }
+  }
+
+  small {
+    float: left;
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      margin-left: 0.94em;
+    }
+  }
+}
+
+
+
+
+
+
