@@ -5,5 +5,6 @@ class ApplicationHelperTest < ActionView::TestCase
     base_title = 'Ruby on Rails Tutorial Sample App'
     assert_equal full_title('Home'), "Home | #{base_title}"
     assert_equal full_title('Help'), "Help | #{base_title}"
+    
   end
 end
