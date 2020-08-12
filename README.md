@@ -40,3 +40,7 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+## My Profile Bio
+
+I am a Ruby On Rails Developer. I love JavaScript, logical problem solving in Ruby and exploration of new things. Apart from coding, I also like to travel, listen music and play guitar.
